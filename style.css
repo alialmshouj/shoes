@@ -1,0 +1,90 @@
+header{  
+  width: 100%;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 12px 35px;
+}
+header img{
+    width: 80px;
+    /* border: 2px solid #fff; */
+    border-radius: 10px;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+
+}
+header nav a:hover{
+    background-color:blue;
+    border-radius: 7px;
+    
+}
+header button{
+    height: 40px;
+    width: 80px;
+
+
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(photo_٢٠٢٤-١٠-٢٤_٢١-٤٢-١١.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h1{
+   -webkit-text-stroke: 1px #fff;
+   font-size: 5em;  
+    color: #00000088;
+ 
+}
+.card{
+    width: 360px;
+    padding: 29px;
+    border-radius: 20px;
+
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h1{
+    text-align: center;
+    color:white;
+}
+.shoes{
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 35px;
+    background-color: black;
+}
+.card button{
+    width: 100%;
+
+}
+.fotr{
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    border-top: 2px solid #fff;
+    padding: 20px;
+}
+.fotr span{
+    color:blue ;
+}
+  
+

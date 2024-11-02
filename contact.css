@@ -1,0 +1,66 @@
+.container{
+    background-image: url(photo_٢٠٢٤-١٠-٢٤_٢١-٤٢-١١.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px !important;
+    width: 100%;
+    min-height: 100vh;
+}
+
+form {
+    max-width:  800px;
+    background-color: #00000088;
+    backdrop-filter: blur(3px);
+    gap: 40px 24px;
+}
+
+form h2{
+    text-align: center;
+    width: 100%;
+}
+
+.input-box {
+    width: 200px;
+    position: relative;
+}
+
+.input-box label{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label,
+.input-box textarea:focus ~ label,
+.input-box textarea:valid ~ label{
+    top: -18px;
+}
+
+.input-box input,
+.input-box textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid var(--main);
+    color: var(--sub);
+}
+
+.input-box label {
+    color: var(--main);
+}
+.fotr{
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    border-top: 2px solid #fff;
+    padding: 20px;
+}
+.fotr span{
+    color:blue ;
+}
